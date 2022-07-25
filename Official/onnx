@@ -1,0 +1,7 @@
+ONNX - Open Neural Network Exchange
+
+1. Initially it was built for deep NN.
+2. Mianly support DNN but also allow for traditional ML.
+3. ONNX is an open format for ML models, allowing you to interchange models between various ML frameworks and tools.
+4. Oftentimes we want these models to be portable so that we can deploy them in environments that might be different than where we initially trained the model.
+5. ONNX is designed to allow framework interoporability
