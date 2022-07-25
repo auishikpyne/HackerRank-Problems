@@ -1,0 +1,21 @@
+ubuntu terminal :
+
+ssh auishik@119.148.4.21
+
+
+live Server
+
+ip : 119.148.4.21
+pass : Ash$#3jahT9h6
+
+cd /home/auishik/tts_train/new_data/mid_data
+
+conda activate environment name(tts_auishik)
+
+step 1 : python audio_metadata_extractor.py new_audio_data validation
+
+step 2 : python g2p_pred.py metadata.txt offset [initial offset = 0]
+
+step 3 : ID|text|phoneme do it in header of final_metadata.csv and rename it metadata_context.csv.
+
+
